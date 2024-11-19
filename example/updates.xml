@@ -1,0 +1,82 @@
+<updates>
+  <update status="stable" type="security" version="1.2.10-3.2.el7" from="nobody@example.com">
+    <id>containerd.io-1.2.10-3.2.el7</id>
+    <title>containerd.io update</title>
+    <release>RedHat Compatible</release>
+    <issued>1570570768</issued>
+    <description>containerd is an industry-standard container runtime with an emphasis on&#xA;simplicity, robustness and portability. It is available as a daemon for Linux&#xA;and Windows, which can manage the complete container lifecycle of its host&#xA;system: image transfer and storage, container execution and supervision,&#xA;low-level storage and network attachments, etc.</description>
+    <solution>Updates for fixing bugs or enhancement of containerd.io</solution>
+    <references>
+      <reference href="http://redhat.com" type="self" title="containerd.io"></reference>
+    </references>
+    <pkglist>
+      <collection short="containerd.io">
+        <name>containerd.io package</name>
+        <package name="containerd.io" version="1.2.10" release="3.2.el7" epoch="0" arch="x86_64">
+          <filename>Packages/containerd.io-1.2.10-3.2.el7.x86_64.rpm</filename>
+          <sum type="sha256">8f29304480a197343fb6fb0fd28e8753aed4e177545568cb4ea3b0f0c02ebf82</sum>
+        </package>
+      </collection>
+    </pkglist>
+  </update>
+  <update status="stable" type="security" version="3:19.03.5-3.el7" from="nobody@example.com">
+    <id>docker-ce-3:19.03.5-3.el7</id>
+    <title>docker-ce update</title>
+    <release>RedHat Compatible</release>
+    <issued>1573629930</issued>
+    <description>Docker is a product for you to build, ship and run any application as a&#xA;lightweight container.&#xA;&#xA;Docker containers are both hardware-agnostic and platform-agnostic. This means&#xA;they can run anywhere, from your laptop to the largest cloud compute instance and&#xA;everything in between - and they don&#39;t require you to use a particular&#xA;language, framework or packaging system. That makes them great building blocks&#xA;for deploying and scaling web apps, databases, and backend services without&#xA;depending on a particular stack or provider.</description>
+    <solution>Updates for fixing bugs or enhancement of docker-ce</solution>
+    <references>
+      <reference href="http://redhat.com" type="self" title="docker-ce"></reference>
+    </references>
+    <pkglist>
+      <collection short="docker-ce">
+        <name>docker-ce package</name>
+        <package name="docker-ce" version="19.03.5" release="3.el7" epoch="3" arch="x86_64">
+          <filename>Packages/docker-ce-19.03.5-3.el7.x86_64.rpm</filename>
+          <sum type="sha256">4cb9783de08e2d126105d89b5326f4827fdc5d740469374694c223f1d70eb04c</sum>
+        </package>
+      </collection>
+    </pkglist>
+  </update>
+  <update status="stable" type="security" version="1:19.03.5-3.el7" from="nobody@example.com">
+    <id>docker-ce-cli-1:19.03.5-3.el7</id>
+    <title>docker-ce-cli update</title>
+    <release>RedHat Compatible</release>
+    <issued>1573629930</issued>
+    <description>Docker is is a product for you to build, ship and run any application as a&#xA;lightweight container.&#xA;&#xA;Docker containers are both hardware-agnostic and platform-agnostic. This means&#xA;they can run anywhere, from your laptop to the largest cloud compute instance and&#xA;everything in between - and they don&#39;t require you to use a particular&#xA;language, framework or packaging system. That makes them great building blocks&#xA;for deploying and scaling web apps, databases, and backend services without&#xA;depending on a particular stack or provider.</description>
+    <solution>Updates for fixing bugs or enhancement of docker-ce-cli</solution>
+    <references>
+      <reference href="http://redhat.com" type="self" title="docker-ce-cli"></reference>
+    </references>
+    <pkglist>
+      <collection short="docker-ce-cli">
+        <name>docker-ce-cli package</name>
+        <package name="docker-ce-cli" version="19.03.5" release="3.el7" epoch="1" arch="x86_64">
+          <filename>Packages/docker-ce-cli-19.03.5-3.el7.x86_64.rpm</filename>
+          <sum type="sha256">3ade046522e9dcc22565f4a9d917e2bd66be495bc9eae8860fe00cd79b3f9e3c</sum>
+        </package>
+      </collection>
+    </pkglist>
+  </update>
+  <update status="stable" type="security" version="17.03.3.ce-1.el7" from="nobody@example.com">
+    <id>docker-ce-selinux-17.03.3.ce-1.el7</id>
+    <title>docker-ce-selinux update</title>
+    <release>RedHat Compatible</release>
+    <issued>1535591309</issued>
+    <description>SELinux policy modules for use with Docker</description>
+    <solution>Updates for fixing bugs or enhancement of docker-ce-selinux</solution>
+    <references>
+      <reference href="http://redhat.com" type="self" title="docker-ce-selinux"></reference>
+    </references>
+    <pkglist>
+      <collection short="docker-ce-selinux">
+        <name>docker-ce-selinux package</name>
+        <package name="docker-ce-selinux" version="17.03.3.ce" release="1.el7" epoch="0" arch="noarch">
+          <filename>Packages/docker-ce-selinux-17.03.3.ce-1.el7.noarch.rpm</filename>
+          <sum type="sha256">50d75b9412e1a3056bfa8f0436114d1ff8c1073f916d1e9b8ba46bb49024ee86</sum>
+        </package>
+      </collection>
+    </pkglist>
+  </update>
+</updates>
